@@ -36,5 +36,15 @@
     "classmap": [
       "tests/"
     ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Toplan\\PhpSms\\PhpSmsServiceProvider"
+      ],
+      "aliases": {
+        "PhpSms": "Toplan\\PhpSms\\Facades\\Sms"
+      }
+    }
   }
 }
